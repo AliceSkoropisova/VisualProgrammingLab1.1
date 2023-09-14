@@ -14,14 +14,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_label_2_linkActivated(const QString &link)
-{
-    ui->label_2->setText("frffff");
-}
 
 
-void MainWindow::on_pushButton_clicked()
-{
-    QMessageBox::about(this, "dfa", "sdfgwsdg");
-}
 
