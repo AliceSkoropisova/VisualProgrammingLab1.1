@@ -18,8 +18,7 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-TRANSLATIONS += \
-    vplab1_ru_RU.ts
+
 CONFIG += lrelease
 CONFIG += embed_translations
 
@@ -28,5 +27,38 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+DISTFILES += \
+    ../../Users/alice/OneDrive/Рабочий стол/knopa.jpg \
+    trash/-33.jpg \
+    trash/1.jpg \
+    trash/11.jpg \
+    trash/2.jpg \
+    trash/22.jpg \
+    trash/3.jpg \
+    trash/4.jpg \
+    trash/44.jpg \
+    trash/5.jpg \
+    trash/55.jpg \
+    trash/66.jpg \
+    trash/77.jpg \
+    trash/a.jpg \
+    trash/album.jpg \
+    trash/b.jpg \
+    trash/c.jpg \
+    trash/d.jpg \
+    trash/fil.jpg \
+    trash/knopa.jpg \
+    trash/krug.jpg \
+    trash/m.jpg \
+    trash/nepon.jpg \
+    trash/off.jpg \
+    trash/p.jpg \
+    trash/po.jpg \
+    trash/s.jpg \
+    trash/str.jpg \
+    trash/t.jpg \
+    trash/vkl.jpg
+
 RESOURCES += \
-    ../Изображения/Обои/dog.qrc
+    img.qrc \
+    imgg.qrc
